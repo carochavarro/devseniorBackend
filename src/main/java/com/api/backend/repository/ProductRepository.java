@@ -6,9 +6,11 @@ import org.springframework.stereotype.Repository;
 
 import com.api.backend.models.Producto;
 
+
 @Repository
 public interface ProductRepository extends JpaRepository<Producto, Long>{
 
+    void findByNombre(String nombre);
 }
 
 
