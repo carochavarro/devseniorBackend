@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.api.backend.models.Categoria;
-import com.api.backend.models.Producto;
 import com.api.backend.repository.CategoriaRepository;
 
 @Service
@@ -27,7 +26,5 @@ public class CategoriaService {
         categoriaRepository.deleteById(id);
     }
 
-    public Optional<Categoria> updateById(Long id){
-        return categoriaRepository.updateById(id);
-    }
+   
 }
