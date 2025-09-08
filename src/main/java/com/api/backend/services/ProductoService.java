@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.api.backend.models.Producto;
-import com.api.backend.repository.ProductRepository;
+import com.api.backend.repository.ProductoRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +13,7 @@ import java.util.Optional;
 public class ProductoService {
 
     @Autowired
-    private ProductRepository productoRepository;
+    private ProductoRepository productoRepository;
 
     public List<Producto> findAll() {
         return productoRepository.findAll();

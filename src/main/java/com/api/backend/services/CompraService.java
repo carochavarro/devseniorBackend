@@ -12,7 +12,7 @@ public class CompraService {
     @Autowired
     private  CompraRepository compraRepository;
 
-    public Compra save (Compra compra){
+    public Compra save(Compra compra){
         return compraRepository.save(compra);
     } 
 

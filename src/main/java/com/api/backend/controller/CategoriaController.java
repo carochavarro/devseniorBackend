@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.api.backend.models.Categoria;
-import com.api.backend.models.Producto;
 import com.api.backend.services.CategoriaService;
 
 import lombok.extern.slf4j.Slf4j;
